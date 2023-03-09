@@ -1,4 +1,7 @@
 package com.kotlin.migration.response
 
-class PostDetail {
-}
+data class PostDetail(
+    val id: Long?,
+    val username: String,
+    val title: String,
+    val content: String)

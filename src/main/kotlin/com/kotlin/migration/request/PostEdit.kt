@@ -1,4 +1,5 @@
 package com.kotlin.migration.request
 
-class PostEdit {
-}
+data class PostEdit(
+    val title: String,
+    val content: String)

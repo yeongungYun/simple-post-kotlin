@@ -1,4 +1,7 @@
 package com.kotlin.migration.repository
 
-class PostRepository {
+import com.kotlin.migration.domain.Post
+import org.springframework.data.jpa.repository.JpaRepository
+
+interface PostRepository : JpaRepository<Post, Long> {
 }
